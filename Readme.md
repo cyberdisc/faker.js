@@ -169,6 +169,7 @@ This will interpolate the format string with the value of methods `name.lastName
   * paragraphs
 * name
   * firstName
+  * middleName
   * lastName
   * findName
   * jobTitle

@@ -928,7 +928,7 @@ function Faker (opts) {
   // TODO: fix self.commerce = require('./commerce');
 
   var _definitions = {
-    "name": ["first_name", "last_name", "prefix", "suffix", "title", "male_first_name", "female_first_name", "male_middle_name", "female_middle_name", "male_last_name", "female_last_name"],
+    "name": ["first_name", "last_name", "prefix", "suffix", "title", "male_first_name", "female_first_name", "male_middle_name", "female_middle_name", "male_last_name", "female_last_name", "male_prefix", "female_prefix", "male_suffix", "female_suffix"],
     "address": ["city_prefix", "city_suffix", "street_suffix", "county", "country", "country_code", "state", "state_abbr", "street_prefix", "postcode"],
     "company": ["adjective", "noun", "descriptor", "bs_adjective", "bs_noun", "bs_verb", "suffix"],
     "lorem": ["words"],
@@ -1690,7 +1690,7 @@ module["exports"] = [
 
 },{}],22:[function(require,module,exports){
 module.exports=require(21)
-},{"/Users/a/dev/faker.js/lib/locales/en/address/postcode.js":21}],23:[function(require,module,exports){
+},{"/home/werner/Arbeit/code/Trolley/faker.js/faker.js/lib/locales/en/address/postcode.js":21}],23:[function(require,module,exports){
 module["exports"] = [
   "Apt. ###",
   "Suite ###"
@@ -10355,7 +10355,7 @@ module["exports"] = [
 
 },{}],105:[function(require,module,exports){
 module.exports=require(26)
-},{"/Users/a/dev/faker.js/lib/locales/en/address/street_address.js":26}],106:[function(require,module,exports){
+},{"/home/werner/Arbeit/code/Trolley/faker.js/faker.js/lib/locales/en/address/street_address.js":26}],106:[function(require,module,exports){
 module["exports"] = [
   "#{street_prefix} #{street_suffix}"
 ];
@@ -10444,17 +10444,17 @@ module["exports"] = [
 
 },{}],109:[function(require,module,exports){
 module.exports=require(44)
-},{"/Users/a/dev/faker.js/lib/locales/en/company/adjective.js":44}],110:[function(require,module,exports){
+},{"/home/werner/Arbeit/code/Trolley/faker.js/faker.js/lib/locales/en/company/adjective.js":44}],110:[function(require,module,exports){
 module.exports=require(45)
-},{"/Users/a/dev/faker.js/lib/locales/en/company/bs_adjective.js":45}],111:[function(require,module,exports){
+},{"/home/werner/Arbeit/code/Trolley/faker.js/faker.js/lib/locales/en/company/bs_adjective.js":45}],111:[function(require,module,exports){
 module.exports=require(46)
-},{"/Users/a/dev/faker.js/lib/locales/en/company/bs_noun.js":46}],112:[function(require,module,exports){
+},{"/home/werner/Arbeit/code/Trolley/faker.js/faker.js/lib/locales/en/company/bs_noun.js":46}],112:[function(require,module,exports){
 module.exports=require(47)
-},{"/Users/a/dev/faker.js/lib/locales/en/company/bs_verb.js":47}],113:[function(require,module,exports){
+},{"/home/werner/Arbeit/code/Trolley/faker.js/faker.js/lib/locales/en/company/bs_verb.js":47}],113:[function(require,module,exports){
 module.exports=require(48)
-},{"/Users/a/dev/faker.js/lib/locales/en/company/descriptor.js":48}],114:[function(require,module,exports){
+},{"/home/werner/Arbeit/code/Trolley/faker.js/faker.js/lib/locales/en/company/descriptor.js":48}],114:[function(require,module,exports){
 arguments[4][49][0].apply(exports,arguments)
-},{"./adjective":109,"./bs_adjective":110,"./bs_noun":111,"./bs_verb":112,"./descriptor":113,"./name":115,"./noun":116,"./suffix":117,"/Users/a/dev/faker.js/lib/locales/en/company/index.js":49}],115:[function(require,module,exports){
+},{"./adjective":109,"./bs_adjective":110,"./bs_noun":111,"./bs_verb":112,"./descriptor":113,"./name":115,"./noun":116,"./suffix":117,"/home/werner/Arbeit/code/Trolley/faker.js/faker.js/lib/locales/en/company/index.js":49}],115:[function(require,module,exports){
 module["exports"] = [
   "#{Name.last_name} #{suffix}",
   "#{Name.last_name} et #{Name.last_name}"
@@ -10462,7 +10462,7 @@ module["exports"] = [
 
 },{}],116:[function(require,module,exports){
 module.exports=require(51)
-},{"/Users/a/dev/faker.js/lib/locales/en/company/noun.js":51}],117:[function(require,module,exports){
+},{"/home/werner/Arbeit/code/Trolley/faker.js/faker.js/lib/locales/en/company/noun.js":51}],117:[function(require,module,exports){
 module["exports"] = [
   "SARL",
   "SA",
@@ -10511,11 +10511,11 @@ internet.domain_suffix = require("./domain_suffix");
 
 },{"./domain_suffix":119,"./free_email":120}],122:[function(require,module,exports){
 module.exports=require(82)
-},{"./supplemental":123,"./words":124,"/Users/a/dev/faker.js/lib/locales/en/lorem/index.js":82}],123:[function(require,module,exports){
+},{"./supplemental":123,"./words":124,"/home/werner/Arbeit/code/Trolley/faker.js/faker.js/lib/locales/en/lorem/index.js":82}],123:[function(require,module,exports){
 module.exports=require(83)
-},{"/Users/a/dev/faker.js/lib/locales/en/lorem/supplemental.js":83}],124:[function(require,module,exports){
+},{"/home/werner/Arbeit/code/Trolley/faker.js/faker.js/lib/locales/en/lorem/supplemental.js":83}],124:[function(require,module,exports){
 module.exports=require(84)
-},{"/Users/a/dev/faker.js/lib/locales/en/lorem/words.js":84}],125:[function(require,module,exports){
+},{"/home/werner/Arbeit/code/Trolley/faker.js/faker.js/lib/locales/en/lorem/words.js":84}],125:[function(require,module,exports){
 module["exports"] = [
   "Enzo",
   "Lucas",
@@ -10831,7 +10831,7 @@ module["exports"] = [
 
 },{}],132:[function(require,module,exports){
 arguments[4][93][0].apply(exports,arguments)
-},{"./formats":131,"/Users/a/dev/faker.js/lib/locales/en/phone_number/index.js":93}],133:[function(require,module,exports){
+},{"./formats":131,"/home/werner/Arbeit/code/Trolley/faker.js/faker.js/lib/locales/en/phone_number/index.js":93}],133:[function(require,module,exports){
 
 var Lorem = function (faker) {
   var self = this;
@@ -10890,7 +10890,7 @@ function Name (faker) {
 
   this.firstName = function (gender) {
     if (typeof faker.definitions.name.male_first_name !== "undefined" && typeof faker.definitions.name.female_first_name !== "undefined") {
-      // some locale datasets ( like ru ) have first_name split by gender. since the name.first_name field does not exist in these datasets,
+      // some locale datasets ( like ru ) have first_name split by gender. Since the name.first_name field does not exist in these datasets,
       // we must randomly pick a name from either gender array so faker.name.firstName will return the correct locale data ( and not fallback )
       if (typeof gender !== 'number') {
         gender = faker.random.number(1);
@@ -10902,6 +10902,22 @@ function Name (faker) {
       }
     }
     return faker.random.arrayElement(faker.definitions.name.first_name);
+  };
+
+  this.middleName = function (gender) {
+    if (typeof faker.definitions.name.male_middle_name !== "undefined" && typeof faker.definitions.name.female_middle_name !== "undefined") {
+      // some locale datasets ( like ru ) have middle_name split by gender. i have no idea how last names can have genders, but also i do not speak russian
+      // see above comment of firstName method
+      if (typeof gender !== 'number') {
+        gender = faker.random.number(1);
+      }
+      if (gender === 0) {
+        return faker.random.arrayElement(faker.locales[faker.locale].name.male_middle_name);
+      } else {
+        return faker.random.arrayElement(faker.locales[faker.locale].name.female_middle_name);
+      }
+    }
+    return faker.random.arrayElement(faker.definitions.name.middle_name);
   };
 
   this.lastName = function (gender) {
@@ -10922,22 +10938,31 @@ function Name (faker) {
 
   this.findName = function (firstName, lastName, gender) {
       var r = faker.random.number(8);
-      var prefix, suffix;
+      var prefix, suffix, middleName;
       // in particular locales first and last names split by gender,
       // thus we keep consistency by passing 0 as male and 1 as female
       if (typeof gender !== 'number') {
         gender = faker.random.number(1);
       }
-      firstName = firstName || faker.name.firstName(gender);
+      if (!firstName) {
+          firstName = faker.name.firstName(gender);
+          // add middle names iterative
+          while (faker.random.number(1)) {
+              middleName = faker.name.middleName(gender);
+              if (middleName) {
+                  firstName += ' ' + middleName;
+              }
+          }
+      }
       lastName = lastName || faker.name.lastName(gender);
       switch (r) {
       case 0:
-          prefix = faker.name.prefix();
+          prefix = faker.name.prefix(gender);
           if (prefix) {
               return prefix + " " + firstName + " " + lastName;
           }
       case 1:
-          suffix = faker.name.prefix();
+          suffix = faker.name.suffix(gender);
           if (suffix) {
               return firstName + " " + lastName + " " + suffix;
           }
@@ -10952,11 +10977,35 @@ function Name (faker) {
       faker.name.jobType();
   };
 
-  this.prefix = function () {
+  this.prefix = function (gender) {
+      if (typeof faker.definitions.name.male_prefix !== "undefined" && typeof faker.definitions.name.female_prefix !== "undefined") {
+          // some locale datasets ( like de ) have prefix split by gender.
+          // see above comment of firstName method
+          if (typeof gender !== 'number') {
+              gender = faker.random.number(1);
+          }
+          if (gender === 0) {
+              return faker.random.arrayElement(faker.locales[faker.locale].name.male_prefix);
+          } else {
+              return faker.random.arrayElement(faker.locales[faker.locale].name.female_prefix);
+          }
+      }
       return faker.random.arrayElement(faker.definitions.name.prefix);
   };
 
-  this.suffix = function () {
+  this.suffix = function (gender) {
+      if (typeof faker.definitions.name.male_suffix !== "undefined" && typeof faker.definitions.name.female_suffix !== "undefined") {
+          // some locale datasets (may) have suffix split by gender.
+          // see above comment of firstName method
+          if (typeof gender !== 'number') {
+              gender = faker.random.number(1);
+          }
+          if (gender === 0) {
+              return faker.random.arrayElement(faker.locales[faker.locale].name.male_suffix);
+          } else {
+              return faker.random.arrayElement(faker.locales[faker.locale].name.female_suffix);
+          }
+      }
       return faker.random.arrayElement(faker.definitions.name.suffix);
   };
 
@@ -10983,6 +11032,7 @@ function Name (faker) {
 }
 
 module['exports'] = Name;
+
 },{}],135:[function(require,module,exports){
 var Phone = function (faker) {
   var self = this;
